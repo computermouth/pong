@@ -1,0 +1,7 @@
+main
+concoord/concoord
+*.gch
+*.o
+img/**/*.h
+tools/yaml2struct/yaml2struct
+test.mp
