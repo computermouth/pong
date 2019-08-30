@@ -22,11 +22,22 @@ int main( int argc, char * argv[] ) {
 	init_player_one();
 	init_player_two();
 	init_ball();
+	init_red_score();
+	init_blue_score();
 	
 	int player_speed = 4;
 	
 	int y_dir = 3;
 	int x_dir = 3;
+	
+	int p1score = 0;
+	int p2score = 0;
+	
+	red_score->pad_x = (screen_width  / 2) - (red_score->width  / 2) + 100;
+	red_score->pad_y = 50;
+	
+	blue_score->pad_x = (screen_width  / 2) - (blue_score->width  / 2) - 100;
+	blue_score->pad_y = 50;
 	
 	player_two->pad_x = screen_width - player_two->width;
 	ball->pad_x = (screen_width  / 2) - (ball->width  / 2);
@@ -62,6 +73,12 @@ int main( int argc, char * argv[] ) {
 		
 		// move ball to center if it goes off right side or left side
 		if (ball->pad_x > screen_width || ball->pad_x < 0 ) {
+			
+			if(ball->pad_x < 0)
+				p2score++;
+			else
+				p1score++;
+			
 			ball->pad_x = (screen_width  / 2) - (ball->width  / 2);
 			ball->pad_y = (screen_height / 2) - (ball->height / 2);
 		}
@@ -84,12 +101,29 @@ int main( int argc, char * argv[] ) {
 			ball->pad_x = player_two->pad_x - ball->width - 1;
 		}
 		
+		if(p1score < 10 && p2score < 10){
+			red_score->active_animation = p2score;
+			blue_score->active_animation = p1score;
+		} else {
+			ww_window_send_quit_event();
+		}
+		
 		ww_draw_sprite(player_one);
 		ww_draw_sprite(player_two);
+		
+		ww_draw_sprite(red_score);
+		ww_draw_sprite(blue_score);
+		
 		ww_draw_sprite(ball);
 		
 		ww_window_update_buffer();
 	}
+	
+	ww_free_sprite(player_one);
+	ww_free_sprite(player_two);
+	ww_free_sprite(red_score);
+	ww_free_sprite(blue_score);
+	ww_free_sprite(ball);
 	
 	ww_window_destroy();
 	return 0;

@@ -12,4 +12,4 @@ tools:
 	make -C concoord
 
 memtest:
-	valgrind --track-origins=yes --leak-check=yes ./main
+	valgrind --track-origins=yes --leak-check=yes ./main -S 1/8
