@@ -1,0 +1,560 @@
+
+animations:
+  - animation: zero
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 30.6608
+              - 20.8494
+              - 19.6229
+            y:
+              - 51.5102
+              - 1.22643
+              - -1.22643
+              - 51.5102
+          - layer: Layer_1_copy
+            color: "#0000ff"
+            x:
+              - 9.81146
+              - 11.0379
+              - 1.22643
+              - -1.77636e-15
+            y:
+              - 51.5102
+              - 1.22643
+              - -1.22643
+              - 51.5102
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 4.90573
+              - 24.5287
+              - 23.3022
+              - 3.6793
+            y:
+              - 39.2459
+              - 39.2459
+              - 49.0573
+              - 50.2838
+          - layer: Layer_2_copy
+            color: "#0000ff"
+            x:
+              - 6.13217
+              - 25.7551
+              - 24.5287
+              - 4.90573
+            y:
+              - -1.22643
+              - -1.22643
+              - 8.58503
+              - 9.81146
+  - animation: one
+    frames:
+      - frame: one
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 30.6608
+              - 20.8494
+              - 19.6229
+            y:
+              - 51.5102
+              - 1.22643
+              - -1.22643
+              - 51.5102
+  - animation: two
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - -3
+              - 30.6608
+              - 31.7551
+              - -2.45287
+            y:
+              - 36.1137
+              - 36.793
+              - 50.2838
+              - 50.2838
+          - layer: Layer_2_copy
+            color: "#0000ff"
+            x:
+              - 31.8873
+              - 0
+              - -1.22643
+              - 29.4344
+            y:
+              - 9.81146
+              - 9.81146
+              - 0
+              - 1.22643
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 30.6608
+              - 30.6608
+              - 9.81146
+              - 9.81146
+              - -1.22643
+              - 0
+              - 22.0758
+              - 22.0758
+            y:
+              - 3.6793
+              - 29.4344
+              - 29.4344
+              - 47.8309
+              - 46.6045
+              - 23.3022
+              - 23.3022
+              - 8.58503
+  - animation: three
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - -3
+              - 30.6608
+              - 31.7551
+              - -2.45287
+            y:
+              - 36.1137
+              - 36.793
+              - 50.2838
+              - 50.2838
+          - layer: Layer_2_copy
+            color: "#0000ff"
+            x:
+              - 31.8873
+              - 0
+              - -1.22643
+              - 29.4344
+            y:
+              - 9.81146
+              - 9.81146
+              - 0
+              - 1.22643
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 30.6608
+              - 30.6608
+              - 23.3022
+              - 18.3965
+            y:
+              - 1.22643
+              - 47.8309
+              - 50.2838
+              - 1.22643
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+  - animation: four
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 30.6608
+              - 30.6608
+              - 23.3022
+              - 18.3965
+            y:
+              - 1.22643
+              - 47.8309
+              - 50.2838
+              - 1.22643
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 11.0379
+              - 11.0379
+              - 2.45287
+              - -1.22643
+            y:
+              - 23.3022
+              - 2.45287
+              - 1.22643
+              - 30.6608
+  - animation: five
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 11.0379
+              - 11.0379
+              - 2.45287
+              - -1.22643
+            y:
+              - 23.3022
+              - 2.45287
+              - 1.22643
+              - 30.6608
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 20.8494
+              - 1.22643
+              - 0
+              - 29.4344
+              - 29.4344
+            y:
+              - 23.3022
+              - 41.6987
+              - 41.6987
+              - 51.5102
+              - 52.7366
+              - 24.5287
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 3.6793
+              - 26.9815
+              - 29.4344
+              - 2.45287
+            y:
+              - 8.58503
+              - 11.0379
+              - 0
+              - 0
+  - animation: six
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 11.0379
+              - 11.0379
+              - 2.45287
+              - -1.22643
+            y:
+              - 23.3022
+              - 2.45287
+              - 1.22643
+              - 30.6608
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 20.8494
+              - 1.22643
+              - 0
+              - 29.4344
+              - 29.4344
+            y:
+              - 23.3022
+              - 41.6987
+              - 41.6987
+              - 51.5102
+              - 52.7366
+              - 24.5287
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 3.6793
+              - 26.9815
+              - 29.4344
+              - 2.45287
+            y:
+              - 8.58503
+              - 11.0379
+              - 0
+              - 0
+          - layer: Layer_5
+            color: "#0000ff"
+            x:
+              - 9.81146
+              - 9.81146
+              - 1.22643
+              - -1.22643
+            y:
+              - 25.7551
+              - 50.2838
+              - 47.8309
+              - 22.0758
+  - animation: seven
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 3.6793
+              - 26.9815
+              - 29.4344
+              - 2.45287
+            y:
+              - 8.58503
+              - 11.0379
+              - 0
+              - 0
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 29.4344
+              - 20.8494
+              - 19.6229
+            y:
+              - 1.22643
+              - 50.2838
+              - 50.2838
+              - 3.6793
+  - animation: eight
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 11.0379
+              - 11.0379
+              - 2.45287
+              - -1.22643
+            y:
+              - 23.3022
+              - 2.45287
+              - 1.22643
+              - 30.6608
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 20.8494
+              - 1.22643
+              - 0
+              - 29.4344
+              - 29.4344
+            y:
+              - 23.3022
+              - 41.6987
+              - 41.6987
+              - 51.5102
+              - 52.7366
+              - 24.5287
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 3.6793
+              - 26.9815
+              - 29.4344
+              - 2.45287
+            y:
+              - 8.58503
+              - 11.0379
+              - 0
+              - 0
+          - layer: Layer_6
+            color: "#0000ff"
+            x:
+              - 9.81146
+              - 9.81146
+              - 1.22643
+              - -1.22643
+            y:
+              - 25.7551
+              - 50.2838
+              - 47.8309
+              - 22.0758
+          - layer: Layer_5
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 22.0758
+              - 29.4344
+              - 30.6608
+            y:
+              - 3.6793
+              - 25.7551
+              - 26.9815
+              - 2.45287
+  - animation: nine
+    frames:
+      - frame: Frame_0
+        delay: 2
+        layers:
+          - layer: Layer_0
+            imgBase64: iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAIAAADEPPy4AAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAADpJREFUWIXt1bEJADAIRcGY/Xc2G0hI9Ql3rfiwcy0gQ83j7p6Wa1rfL/fckZb+MQ2k8BulpVPSQIoDphIGJ/8GfG4AAAAASUVORK5CYII=
+            x_image: 0
+            y_image: 0
+          - layer: Layer_2
+            color: "#0000ff"
+            x:
+              - 29.4344
+              - 1.22643
+              - 1.22643
+              - 29.4344
+            y:
+              - 22.0758
+              - 20.8494
+              - 31.8873
+              - 28.208
+          - layer: Layer_3
+            color: "#0000ff"
+            x:
+              - 11.0379
+              - 11.0379
+              - 2.45287
+              - -1.22643
+            y:
+              - 23.3022
+              - 2.45287
+              - 1.22643
+              - 30.6608
+          - layer: Layer_1
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 20.8494
+              - 1.22643
+              - 0
+              - 29.4344
+              - 29.4344
+            y:
+              - 23.3022
+              - 41.6987
+              - 41.6987
+              - 51.5102
+              - 52.7366
+              - 24.5287
+          - layer: Layer_4
+            color: "#0000ff"
+            x:
+              - 3.6793
+              - 26.9815
+              - 29.4344
+              - 2.45287
+            y:
+              - 8.58503
+              - 11.0379
+              - 0
+              - 0
+          - layer: Layer_5
+            color: "#0000ff"
+            x:
+              - 20.8494
+              - 22.0758
+              - 29.4344
+              - 30.6608
+            y:
+              - 3.6793
+              - 25.7551
+              - 26.9815
+              - 2.45287

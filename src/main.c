@@ -6,6 +6,9 @@
 #include "player_two.h"
 #include "ball.h"
 
+#include "blue_score.h"
+#include "red_score.h"
+
 int screen_width = 1024;
 int screen_height = 576;
 
